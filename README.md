@@ -1,7 +1,7 @@
 # CSCI6660_AI
 # Implemented By Manasa Sukavasi, Indhu Allala, Sai Chandan Regati 
 
-There are 2 files associated with this project, Agent.py and Puzzle.py agent_mod.py: An Agent class is created with multiple method implementations. It keeps track of visited states and re-visited states. It has variables like cube, QV which are the cube itself(solved/unsolved - input) and the Q-values respective to the states accordingly.
+There are 2 files associated with this project, Agent.py and Puzzle.py agent.py: An Agent class is created with multiple method implementations. It keeps track of visited states and re-visited states. It has variables like cube, QV which are the cube itself(solved/unsolved - input) and the Q-values respective to the states accordingly.
 
 QV are initially not provided such that, it takes some random set of Qvalues initially then, based on the state it gives Qvalues to the states.
 
@@ -23,6 +23,6 @@ The reward associated with the goal in the next state is 100 and if not it is di
 
 This process is continued in the given number of episodes and the program quits after the agent is reached the goal state which is the convergence point.
 
-All the supporting methods to shuffle the cube if the initial input is not provided by the user, checking if the cube reached it's goal state or not, All the states and their moves and their actions are appropriately defined in the puzzle_mod.py file.
+All the supporting methods to shuffle the cube if the initial input is not provided by the user, checking if the cube reached it's goal state or not, All the states and their moves and their actions are appropriately defined in the puzzle.py file.
 
 The variable n is given to change the number of rotations to shuffle the cube provided initially. and it's trained and assumed that it can do 180 degrees rotation. This helps in handling the branching factor of the state space of the cube.
