@@ -1,5 +1,5 @@
 # CSCI6660_AI
-# Implemented By Manasa SUkavasi, Indhu Allala, Sai Chandan Regati 
+# Implemented By Manasa Sukavasi, Indhu Allala, Sai Chandan Regati 
 
 There are 2 files associated with this project, Agent.py and Puzzle.py agent_mod.py: An Agent class is created with multiple method implementations. It keeps track of visited states and re-visited states. It has variables like cube, QV which are the cube itself(solved/unsolved - input) and the Q-values respective to the states accordingly.
 
